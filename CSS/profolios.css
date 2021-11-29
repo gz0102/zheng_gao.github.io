@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+.profolios li{
+    list-style: none;
+}
+.profolios li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+}
+
+.profolios li:hover{
+    background-color: whitesmoke;
+}
